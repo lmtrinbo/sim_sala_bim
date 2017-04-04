@@ -1,9 +1,30 @@
+
+
+
+
+
+#Lag: 
+#bakgrunnsbilde
+#Oversikt over servere
+#Skikkelig footer
+#Bakgrunn på serveroversikt
+
+
+
 <html>
 <head>
+
+<div align=center>
 <title>Serveroversikt</title>
+</div>
 </head>
 
 <style>
+
+	title {
+		text-align: center;
+	}
+
 	ul {
 	    list-style-type: none;
 	    margin: 0;
@@ -26,6 +47,18 @@
 
 	li a:hover {
 	    background-color: #111;
+
+	body {
+		background-color: green;
+	}
+
+	div {  #lag heller boks på slutten, relativ 
+		height: 10%;
+		width: 100%;
+		position: absolute;
+		background-color: black;
+	}	
+
 	}
 
 </style>
@@ -37,10 +70,12 @@
 
 
 <ul>
-	<li><a href="#hjem">Hjem</a></li>
+	<li><a href="#Hjem">Hjem</a></li>
 	<li><a href="#Serveroversikt">Serveroversikt</a></li>
-	<li><a href="#Profil">Profil</a></li>	
+	<li><a href="#Profil">Profil</a></li>
+	<li><a href="#LoggInn">Logg inn</a></li>	
 </ul>
+
 <p>--- skille</p>
 
 
@@ -49,8 +84,12 @@ Liste over servere
 server
 
 <p>--- skille</p>
-<div footer> </div>
-footer osv
+<div>
+<ul>
+	<li><a href="#Serveroversikt">Kontakt oss</a></li>
+	<li><a href="#Profil">Om Sim Sala Bim</a></li>
+</ul>
+ </div>
 
 
 </body>
