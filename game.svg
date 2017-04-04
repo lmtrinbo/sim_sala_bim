@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg viewBox="0 30 170 140" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <line x1="20" y1="50" x2="140" y2="50" stroke-width="2" stroke="black"></line>
+  <line x1="20" y1="80" x2="140" y2="80" stroke-width="2" stroke="black"></line>
+  <line x1="20" y1="110" x2="140" y2="110" stroke-width="2" stroke="black"></line>
+  <line x1="20" y1="50" x2="20" y2="80" stroke-width="2" stroke="black"></line>
+  <line x1="140" y1="80" x2="140" y2="110" stroke-width="2" stroke="black"></line>
+ 
+  <circle cx="20" cy="110" r="10" style="fill: rgb(62, 244, 26);"></circle>
+  <circle cx="50" cy="110" r="10" style="fill: rgb(62, 233, 43);"></circle>
+  <circle cx="80" cy="110" r="10" style="fill: rgb(62, 222, 59);"></circle>
+  <circle cx="110" cy="110" r="10" style="fill: rgb(62, 210, 75);"></circle>
+  <circle cx="140" cy="110" r="10" style="fill: rgb(62, 199, 92);"></circle>
+ 
+  <circle cx="140" cy="80" r="10" style="fill: rgb(62, 188, 108);"></circle>
+  <circle cx="110" cy="80" r="10" style="fill: rgb(62, 177, 124);"></circle>
+  <circle cx="80" cy="80" r="10" style="fill: rgb(61, 166, 141);"></circle>
+  <circle cx="50" cy="80" r="10" style="fill: rgb(61, 155, 157);"></circle>
+  <circle cx="20" cy="80" r="10" style="fill: rgb(61, 144, 173);"></circle>
+ 
+  <circle cx="20" cy="50" r="10" style="fill: rgb(61, 133, 190);"></circle>
+  <circle cx="50" cy="50" r="10" style="fill: rgb(61, 121, 206);"></circle>
+  <circle cx="80" cy="50" r="10" style="fill: rgb(61, 110, 222);"></circle>
+  <circle cx="110" cy="50" r="10" style="fill: rgb(61, 99, 239);"></circle>
+  <circle cx="140" cy="50" r="10" style="fill: rgb(61, 88, 255);"></circle>
+</svg>
