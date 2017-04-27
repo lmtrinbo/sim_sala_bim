@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yooo!</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <fieldset>      <label>
+        <span>Circles per row:</span>
+        <input type="number" 
+               id="circlesPerRow" 
+               placeholder="Circles per row"
+               value="5">
+      </label>
+      <label>
+        <span>Number of rows:</span>
+        <input type="number" 
+               id="rows" 
+               placeholder="Number of rows"
+               value="3">
+      </label>
+      <label>
+        <span>Circle radius:</span>
+        <input type="number"
+               id="circleRadius"
+               placeholder="Circle radius"
+               value="1">
+      </label>
+      <label>
+        <span>Space between circles:</span>
+        <input type="number" 
+               id="spaceBetween" 
+               placeholder="Space between"
+               value="5">
+      </label>
+      <label>
+        <span>Connector thickness:</span>
+        <input type="number" 
+               id="connectorThickness" 
+               placeholder="Connector thickness"
+               value="2">
+      </label>
+      <label>
+        <span>Connector color</span>
+        <input type="color" 
+               id="connectorColor" 
+               value="#666666">
+      </label>
+    </fieldset>
+
+    <div id="output">
+      <div>
+      <svg viewBox="0 0 170 140" xmlns="http://www.w3.org/2000/svg">
+      </svg>
+      </div>
+      <div>
+        <textarea id="txtOutput"></textarea>
+        <button id="btnSave">Save</button>
+      </div>
+
+    <script src="svg.js"></script>
+  </body>
+</html>
